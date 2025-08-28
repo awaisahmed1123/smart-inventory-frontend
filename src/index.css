@@ -1,0 +1,20 @@
+/* Yeh 3 lines jaisi hain waisi hi rakhein */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === YAHAN SE NAYA VVIP BACKGROUND CODE ADD KAREIN === */
+
+body {
+    /* Yeh light mode ke liye background hai */
+    background-color: #f0f2f5; 
+    background-image: radial-gradient(#d7d7d7 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Yeh dark mode ke liye background hai */
+html[data-theme="dark"] body {
+    background-color: #1a1a1a;
+    background-image: radial-gradient(#3a3a3a 1px, transparent 1px);
+    background-size: 20px 20px;
+}
